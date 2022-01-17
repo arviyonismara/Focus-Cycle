@@ -1,0 +1,165 @@
+{
+    "menu": [
+        {
+            "kategori": "fullbike",
+            "nama": "Bianchi",
+            "deskripsi": "",
+            "harga": 49500,
+            "gambar": "bianchi.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Cervelo",
+            "deskripsi": "",
+            "harga": 49500,
+            "gambar": "cervelo.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Cinelli",
+            "deskripsi": "",
+            "harga": 49500,
+            "gambar": "cinelli.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Dogma",
+            "deskripsi": "",
+            "harga": 49500,
+            "gambar": "Dogma.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Dosnoventa",
+            "deskripsi": "",
+            "harga": 43000,
+            "gambar": "dosnoventa.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Giant",
+            "deskripsi": "",
+            "harga": 48000,
+            "gambar": "giant.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Look",
+            "deskripsi": "",
+            "harga": 43000,
+            "gambar": "look.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Specialized",
+            "deskripsi": "",
+            "harga": 40000,
+            "gambar": "specialized.jpg"
+        },
+        {
+            "kategori": "fullbike",
+            "nama": "Trek",
+            "deskripsi": "",
+            "harga": 40000,
+            "gambar": "trek.jpeg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Dura-Ace",
+            "deskripsi": "",
+            "harga": 40000,
+            "gambar": "duraace.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Sram crank",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "sram.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Shimano 105",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "105.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Ultegra",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "ultegra.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "crank sotor",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "rotor.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "DB wheel",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "db.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "ZIPP",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "zipp.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "MAVIC",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "mavic.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "HED Wheels",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "hed.jpg"
+        },
+        {
+            "kategori": "frameset",
+            "nama": "Cinelli MASH",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "frame1.jpg"
+        },
+        {
+            "kategori": "frameset",
+            "nama": "BMC Time Machine",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "Frame2.jpg"
+        },
+        {
+            "kategori": "frameset",
+            "nama": "Trek Madone",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "frame3.jpg"
+        },
+        {
+            "kategori": "frameset",
+            "nama": "LOOK 795 Monoblade RS",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "Frame4.jpg"
+        },
+        {
+            "kategori": "frameset",
+            "nama": "Frame Dosnoventa",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "frame5.jpg"
+        }
+    ]
+}

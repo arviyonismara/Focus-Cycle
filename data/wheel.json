@@ -1,0 +1,32 @@
+{
+    "menu": [
+        {
+            "kategori": "wheelset",
+            "nama": "DB wheel",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "db.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "ZIPP",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "zipp.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "MAVIC",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "mavic.jpg"
+        },
+        {
+            "kategori": "wheelset",
+            "nama": "HED Wheels",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "hed.jpg"
+		}
+    ]
+}

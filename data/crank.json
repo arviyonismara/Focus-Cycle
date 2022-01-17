@@ -1,0 +1,39 @@
+{
+    "menu": [
+        {
+            "kategori": "crankset",
+            "nama": "Dura-Ace",
+            "deskripsi": "Daging ayam berpadu dengan saus oriental.",
+            "harga": 40000,
+            "gambar": "duraace.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Sram crank",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "sram.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Shimano 105",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "105.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "Ultegra",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "ultegra.jpg"
+        },
+        {
+            "kategori": "crankset",
+            "nama": "crank sotor",
+            "deskripsi": "",
+            "harga": 24000,
+            "gambar": "rotor.jpg"
+        }
+    ]
+}
