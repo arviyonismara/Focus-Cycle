@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*body{
 	background-color: black;
@@ -8,7 +9,7 @@
 	font-family: 'Dela Gothic One', cursive;
 }
 
-.card-im .carousel-item {
+.carousel-item {
 	height: 35rem;
 	position: relative;
 	background-position: center;
@@ -31,4 +32,41 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
+}
+
+.card {
+	height: 400px;
+	transition: all 0.5s ease;
+}
+
+.card-img-top {
+	height: 250px;
+	width: auto;
+	object-fit: cover;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+	background-color: #212529;
+	color: #ecf0f1;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #dc3545;
+}
+
+.footer a:hover {
+	color: #ecf0f1;
+}
+
+.fa {
+	padding: 5px;
 }

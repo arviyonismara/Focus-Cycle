@@ -110,8 +110,8 @@ $sepeda = $sepeda["menu"];
 		<div class="row">
 			<?php foreach ($sepeda as $row) : ?>
 				<div class="col-md-4">
-					<div class="card mb-4" style="height: 500px;">
-						<img src="img/pizza/<?= $row["gambar"]; ?>" class="card-img-top" style="height: 250px; width: auto; object-fit: cover;">
+					<div class="card mb-4">
+						<img src="img/pizza/<?= $row["gambar"]; ?>" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title"><?= $row["nama"]; ?></h5>
 							<p class="card-text"><?= $row["deskripsi"]; ?></p>
@@ -123,6 +123,25 @@ $sepeda = $sepeda["menu"];
 			<?php endforeach; ?>
 		</div>
 
+	</div>
+
+	<div class="footer">
+		<a href="#">
+			<i class="fa fa-facebook-square fa-2x"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-twitter-square fa-2x"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-youtube-square fa-2x"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-linkedin-square fa-2x"></i>
+		</a>
+		<a href="https://github.com/bimarakajati/" target="_blank">
+			<i class="fa fa-github-square fa-2x"></i>
+		</a>
+		<p>Supreme Store by Bima Rakajati &copy; 2022.</p>
 	</div>
 
 
