@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/*body{
-	background-color: black;
-}*/
+body {
+	background: linear-gradient(135deg, #888888, #fff, #b8b8b8, #888888);
+}
 
 .navbar-nav {
 	font-family: 'Dela Gothic One', cursive;
@@ -34,15 +34,19 @@
 	text-align: center;
 }
 
+/* Card */
+
 .card {
 	height: 400px;
 	transition: all 0.5s ease;
+	border-radius: 10px;
 }
 
 .card-img-top {
 	height: 250px;
 	width: auto;
 	object-fit: cover;
+	border-radius: 10px;
 }
 
 .card:hover {
@@ -50,17 +54,75 @@
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* about us */
+.about {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+}
+
+.about .about-selection {
+	background: url(img/pizza/bianchi.jpg) no-repeat left;
+	background-size: 65%;
+	background-color: cadetblue;
+	overflow: hidden;
+	padding: 100px o;
+}
+
+.about .about-selection .inner-container {
+	width: 55%;
+	float: right;
+	background-color: #fdfdfd;
+	padding: 150px;
+}
+
+.about .about-selection .inner-container h1 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.border {
+	height: 3px;
+	width: 100px;
+	background-color: rgb(215, 237, 238);
+}
+
+.text2 {
+	font-size: 15px;
+	color: rgb(43, 146, 150);
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.readmore {
+	border: none;
+	padding: 8px 15px;
+	background-color: cadetblue;
+	color: #fff;
+}
+
+.readmore:hover {
+	text-decoration: underline;
+}
+
+/* footer */
+
 .footer {
 	background-color: #212529;
 	color: #ecf0f1;
+	font-family: 'Dela Gothic One', cursive;
 	text-align: center;
-	font-size: 14px;
-	padding: 15px;
+	font-size: 10px;
+	padding: 10px;
 }
 
 .footer a {
 	text-decoration: none;
-	color: #dc3545;
+	color: #707374;
 }
 
 .footer a:hover {
@@ -69,4 +131,32 @@
 
 .fa {
 	padding: 5px;
+}
+
+@media screen and (max-width:1200px) {
+	.about .about-selection .inner-container {
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.about .about-selection {
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+
+	.about .about-selection .inner-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.about .about-selection {
+		padding: 0;
+	}
+
+	.about .about-selection .inner-container {
+		padding: 60px;
+	}
+
 }

@@ -33,7 +33,7 @@ $sepeda = $sepeda["menu"];
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-link" href="index.php">Home</a>
-					<a class="nav-link" href="form.php">Form</a>
+					<a class="nav-link" href="form.html">Form</a>
 					<div class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
 							Categories
@@ -45,7 +45,8 @@ $sepeda = $sepeda["menu"];
 							<div><a class="dropdown-item" href="frameset.php">Frameset</a></div>
 						</ul>
 					</div>
-					<a class="nav-link" href="AboutUs.php">About Us</a>
+					<a class="nav-link" href="about.html">About Us</a>
+					<a class="nav-link" href="keranjang.html">Keranjang</a>
 				</div>
 			</div>
 		</div>
@@ -59,7 +60,7 @@ $sepeda = $sepeda["menu"];
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="img/carousel/slide1.gif" class="d-block w-100">
+				<img src="img/carousel/performance2.gif" class="d-block w-100">
 				<div class="container1">
 					<h1>FOCUS CYCLE</h1>
 					<p>The best Quality of All Time</p>
@@ -132,16 +133,10 @@ $sepeda = $sepeda["menu"];
 		<a href="#">
 			<i class="fa fa-twitter-square fa-2x"></i>
 		</a>
-		<a href="#">
-			<i class="fa fa-youtube-square fa-2x"></i>
-		</a>
-		<a href="#">
-			<i class="fa fa-linkedin-square fa-2x"></i>
-		</a>
-		<a href="https://github.com/bimarakajati/" target="_blank">
+		<a href="#" target="_blank">
 			<i class="fa fa-github-square fa-2x"></i>
 		</a>
-		<p>Supreme Store by Bima Rakajati &copy; 2022.</p>
+		<p>Focus Cycle production By Arvie Yonismara &copy; 2022.</p>
 	</div>
 
 

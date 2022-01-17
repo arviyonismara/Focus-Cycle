@@ -4,35 +4,35 @@
             "kategori": "frameset",
             "nama": "Cinelli MASH",
             "deskripsi": "",
-            "harga": 24000,
+            "harga": 50000000,
             "gambar": "frame1.jpg"
         },
         {
             "kategori": "frameset",
             "nama": "BMC Time Machine",
             "deskripsi": "",
-            "harga": 24000,
+            "harga": 35000000,
             "gambar": "Frame2.jpg"
         },
         {
             "kategori": "frameset",
             "nama": "Trek Madone",
             "deskripsi": "",
-            "harga": 24000,
+            "harga": 90000000,
             "gambar": "frame3.jpg"
         },
         {
             "kategori": "frameset",
             "nama": "LOOK 795 Monoblade RS",
             "deskripsi": "",
-            "harga": 24000,
+            "harga": 100000000,
             "gambar": "Frame4.jpg"
         },
         {
             "kategori": "frameset",
             "nama": "Frame Dosnoventa",
             "deskripsi": "",
-            "harga": 24000,
+            "harga": 75000000,
             "gambar": "frame5.jpg"
         }
     ]

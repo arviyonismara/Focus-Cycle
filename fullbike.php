@@ -33,7 +33,7 @@ $fullbike = $fullbike["menu"];
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-link" href="index.php">Home</a>
-					<a class="nav-link" href="form.php">Form</a>
+					<a class="nav-link" href="form.html">Form</a>
 					<div class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
 							Categories
@@ -45,7 +45,8 @@ $fullbike = $fullbike["menu"];
 							<div><a class="dropdown-item" href="frameset.php">Frameset</a></div>
 						</ul>
 					</div>
-					<a class="nav-link" href="AboutUs.php">About Us</a>
+					<a class="nav-link" href="about.html">About Us</a>
+					<a class="nav-link" href="keranjang.html">Keranjang</a>
 				</div>
 			</div>
 		</div>
@@ -78,13 +79,26 @@ $fullbike = $fullbike["menu"];
 							<h5 class="card-title"><?= $row["nama"]; ?></h5>
 							<p class="card-text"><?= $row["deskripsi"]; ?></p>
 							<h5 class="card-title">Rp. <?= $row["harga"]; ?></h5>
-							<a href="#" class="btn btn-primary">Pesan Sekarang</a>
+							<a href="#" class="btn btn-dark">Pesan Sekarang</a>
 						</div>
 					</div>
 				</div>
 			<?php endforeach; ?>
 		</div>
 
+	</div>
+
+	<div class="footer">
+		<a href="#">
+			<i class="fa fa-facebook-square fa-2x"></i>
+		</a>
+		<a href="#">
+			<i class="fa fa-twitter-square fa-2x"></i>
+		</a>
+		<a href="#" target="_blank">
+			<i class="fa fa-github-square fa-2x"></i>
+		</a>
+		<p>Focus Cycle production By Arvie Yonismara &copy; 2022.</p>
 	</div>
 
 
