@@ -1,9 +1,6 @@
 <?php
-$data = file_get_contents('data/sepeda.json');
-$sepeda = json_decode($data, true);
-
-$sepeda = $sepeda["menu"];
-
+require "connector.php";
+$barang = query("SELECT * FROM barang");
 ?>
 
 <!doctype html>
@@ -33,20 +30,8 @@ $sepeda = $sepeda["menu"];
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-link" href="index.php">Home</a>
-					<a class="nav-link" href="form.html">Form</a>
-					<div class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-							Categories
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<div><a class="dropdown-item" href="fullbike.php">Fullbike</a></div>
-							<div><a class="dropdown-item" href="crankset.php">Crankset</a></div>
-							<div><a class="dropdown-item" href="wheelset.php">Wheelset</a></div>
-							<div><a class="dropdown-item" href="frameset.php">Frameset</a></div>
-						</ul>
-					</div>
+					<a class="nav-link" href="tambah.php">Form</a>
 					<a class="nav-link" href="about.html">About Us</a>
-					<a class="nav-link" href="keranjang.html">Keranjang</a>
 				</div>
 			</div>
 		</div>
@@ -64,7 +49,7 @@ $sepeda = $sepeda["menu"];
 				<div class="container1">
 					<h1>FOCUS CYCLE</h1>
 					<p>The best Quality of All Time</p>
-					<a href="#" class="btn btn-dark">
+					<a href="#" class="tombol">
 						Get Started
 					</a>
 				</div>
@@ -74,7 +59,7 @@ $sepeda = $sepeda["menu"];
 				<div class="container1">
 					<h1>Be the Fastest</h1>
 					<p>Faster than Flash</p>
-					<a href="#" class="btn btn-dark">
+					<a href="#" class="tombol">
 						Get Started
 					</a>
 				</div>
@@ -84,7 +69,7 @@ $sepeda = $sepeda["menu"];
 				<div class="container1">
 					<h1>Explore your journey</h1>
 					<p>Go Infinity & Beyond</p>
-					<a href="#" class="btn btn-dark">
+					<a href="#" class="tombol">
 						Explore Now
 					</a>
 				</div>
@@ -109,15 +94,15 @@ $sepeda = $sepeda["menu"];
 		</div>
 
 		<div class="row">
-			<?php foreach ($sepeda as $row) : ?>
+			<?php foreach ($barang as $br) : ?>
 				<div class="col-md-4">
 					<div class="card mb-4">
-						<img src="img/pizza/<?= $row["gambar"]; ?>" class="card-img-top">
+						<img src="img/<?= $br["ft_barang"]; ?>" class="card-img-top">
 						<div class="card-body">
-							<h5 class="card-title"><?= $row["nama"]; ?></h5>
-							<p class="card-text"><?= $row["deskripsi"]; ?></p>
-							<h5 class="card-title">Rp. <?= $row["harga"]; ?></h5>
-							<a href="#" class="btn btn-dark">Pesan Sekarang</a>
+							<h5 class="card-title"><?= $br["nm_barang"]; ?></h5>
+							<p class="card-text"><?= $br["deskripsi"]; ?></p>
+							<h5 class="card-title"><?= rupiah($br["harga"]) ; ?></h5>
+							<a href="pesan2.php?id_barang=<?= $br["id_barang"]; ?>" class="btn btn-dark">Pesan</a>
 						</div>
 					</div>
 				</div>
